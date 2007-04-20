@@ -3,10 +3,12 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
+%define		_requires_exceptions pear(PHPUnit.php)
+
 Summary:	%{_class}_%{_subclass} - vector and vector operation classes
 Name:		php-pear-%{_pearname}
 Version:	0.6.2
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -76,7 +78,4 @@ rm -rf %{buildroot}
 %doc %{_pearname}-%{version}/tests/*
 %dir %{_datadir}/pear/%{_class}/%{_subclass}
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
-
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
