@@ -6,7 +6,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.6.2
-Release:	%mkrel 12
+Release:	%mkrel 13
 Summary:	Vector and vector operation classes
 License:	PHP License
 Group:		Development/PHP
