@@ -8,7 +8,7 @@ Release:	17
 Summary:	Vector and vector operation classes
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Math_Vector/
+URL:		https://pear.php.net/package/Math_Vector/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
